@@ -1,9 +1,9 @@
 :root .bg-e-inki {
     --color-scheme: light;
-    --primary-color: black;
-    --primary-color-dark-shade: #3B9E76;
-    --primary-color-darker-shade: #338A67;
-    --primary-color-darkest-shade: #25624A;
+    --primary-color: #989898;
+    --primary-color-dark-shade: #383838;
+    --primary-color-darker-shade: #484848;
+    --primary-color-darkest-shade: #141414;
     --error-color: #ff4136;
     --bs-body-bg: #fff;
     --body-text-color: black;
@@ -11,7 +11,7 @@
   
     /* Navbar */
     --navbar-bg-color: rgb(158, 158, 158);
-    --navbar-text-color: white;
+    --navbar-text-color: black;
     --navbar-fa-icon-color: white;
     --navbar-btn-hover-outline-color: rgba(255, 255, 255, 1);
   
@@ -19,6 +19,7 @@
     --input-bg-color: #fff;
     --input-focused-border-color: #ccc;
     --input-bg-readonly-color: rgba(0,0,0,0.2);
+    --input-text-color: #000;
     --input-placeholder-color: #aeaeae;
     --input-border-color: #ccc;
     --input-range-color: var(--primary-color);
@@ -30,7 +31,7 @@
     --btn-primary-bg-color: white;
     --btn-primary-border-color: black;
     --btn-primary-hover-text-color: white;
-    --btn-primary-hover-bg-color: black;
+    --btn-primary-hover-bg-color: var(--primary-color);
     --btn-primary-hover-border-color: black;
     --btn-alt-bg-color: #424c72;
     --btn-alt-border-color: #444f75;
@@ -70,7 +71,7 @@
     --side-nav-box-shadow: none;
     --side-nav-mobile-box-shadow: 3px 0em 5px 10em rgb(0 0 0 / 50%);
     --side-nav-hover-text-color: white;
-    --side-nav-hover-bg-color: black;
+    --side-nav-hover-bg-color: var(--primary-color-darker-shade);
     --side-nav-color: black;
     --side-nav-border-radius: 5px;
     --side-nav-border: none;
