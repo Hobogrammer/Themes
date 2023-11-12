@@ -1,36 +1,59 @@
 :root .bg-e-inki {
     --color-scheme: light;
     --primary-color: black;
-    --primary-color-dark-shade: #3B9E76;
-    --primary-color-darker-shade: #338A67;
-    --primary-color-darkest-shade: #25624A;
+    --primary-color-dark-shade: black;
+    --primary-color-darker-shade: black;
+    --primary-color-darkest-shade: black;
     --error-color: #ff4136;
-    --bs-body-bg: #fff;
+    --bs-body-bg: white;
     --body-text-color: black;
     --btn-icon-filter: invert(1) grayscale(100%) brightness(200%);
-  
+
+    --nav-header-text-color: black;
     /* Navbar */
-    --navbar-bg-color: rgb(158, 158, 158);
-    --navbar-text-color: white;
-    --navbar-fa-icon-color: white;
+    --navbar-bg-color: white;
+    --navbar-text-color: black;
+    --navbar-fa-icon-color: black;
     --navbar-btn-hover-outline-color: rgba(255, 255, 255, 1);
-  
+
+    .navbar {
+        border-bottom: 1px solid black;
+    }
+
+    .navbar-brand {
+        color: black;
+    }
+
     /* Inputs */
-    --input-bg-color: #fff;
-    --input-focused-border-color: #ccc;
+    --input-bg-color: white;
+    --input-text-color: black;
+    --input-focused-border-color: black;
     --input-bg-readonly-color: rgba(0,0,0,0.2);
-    --input-placeholder-color: #aeaeae;
-    --input-border-color: #ccc;
+    --input-placeholder-color: grey;
+    --input-border-color: black;
     --input-range-color: var(--primary-color);
     --input-range-active-color: var(--primary-color-darker-shade);
+
+    .typeahead-input {
+        border: none;
+        box-shadow: 0 0 0 1pt black;
+    }
+
+    .logo {
+        filter: grayscale(100%);
+    }
+
+    .form-check-input:checked {
+        background-color: grey;
+    }
   
     /* Buttons */
     --bs-btn-color: #000;
     --btn-primary-text-color: black;
     --btn-primary-bg-color: white;
     --btn-primary-border-color: black;
-    --btn-primary-hover-text-color: white;
-    --btn-primary-hover-bg-color: black;
+    --btn-primary-hover-text-color: black;
+    --btn-primary-hover-bg-color: white;
     --btn-primary-hover-border-color: black;
     --btn-alt-bg-color: #424c72;
     --btn-alt-border-color: #444f75;
@@ -44,15 +67,20 @@
     --btn-fa-icon-color: black;
   
     /* Nav */
-    --nav-link-active-text-color: white;
-    --nav-link-bg-color: black;
+    --nav-link-active-text-color: black;
+    --nav-link-bg-color:white;
     --nav-link-text-color: black;
-    --nav-link-hover-text-color: var(--primary-color);
+    --nav-link-hover-text-color: white;
     --nav-tab-border-hover-color: transparent;
-    --nav-tab-active-text-color: white;
-    --nav-tab-text-color: var(--body-text-color);
-    --nav-tab-bg-color: black;
+    --nav-tab-active-text-color: black;
+    --nav-tab-text-color: black;
+    --nav-tab-bg-color: white;
     --nav-tab-hover-border-color: black;
+    --nav-tab-border-color: grey;
+    --nav-tab-border-top: grey;
+    --nav-tab-border-right: grey;
+    --nav-tab-border-left: grey;
+    --nav-tab-border-bottom: grey;
   
     /* Checkboxes */
     --checkbox-checked-bg-color: var(--primary-color);
@@ -79,10 +107,10 @@
     --side-nav-bg-color-transition: 0s;
     --side-nav-companion-bar-transistion: 0s;
     --side-nav-closed-bg-color: transparent;
-    --side-nav-item-active-color: var(--primary-color);
+    --side-nav-item-active-color: black;
     --side-nav-active-bg-color: rgba(0,0,0,0.5);
     --side-nav-overlay-color: rgba(0,0,0,1);
-    --side-nav-item-active-text-color: white;
+    --side-nav-item-active-text-color: black;
   
     /* Toasts */
     --toast-success-bg-color: rgba(74, 198, 148, 0.9);
@@ -128,10 +156,11 @@
     --list-group-active-border-color: none;
   
     /* Dropdown */
-    --dropdown-item-hover-text-color: white;
-    --dropdown-item-hover-bg-color: var(--primary-color);
+    --dropdown-item-bg-color: white;
+    --dropdown-item-hover-text-color: black;
+    --dropdown-item-hover-bg-color: grey;
     --dropdown-overlay-color: rgba(0,0,0,0.5);
-    --dropdown-item-bg-color: rgb(92, 92, 92);
+    --dropdown-item-bg-color: white;
   
     /* Manga Reader */
     --manga-reader-overlay-filter: none;
@@ -186,4 +215,11 @@
     /* Bulk Selection */
     --bulk-selection-text-color: white;
     --bulk-selection-highlight-text-color: white;
+
+    /* Accordion */
+    --accordion-body-bg-color: white;
+    --accordion-header-text-color: black;
+    --accordion-header-collapsed-text-color: black;
+    --accordion-header-collapsed-bg-color: white;
+    --accordion-body-border-color: black;
   }
