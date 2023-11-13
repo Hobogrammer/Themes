@@ -135,16 +135,15 @@
     --brand-font-family: "Spartan", sans-serif;
   
     /* Breadcrumb */
-    --breadcrumb-bg-color: #eaeaea;
-    --breadcrumb-item-text-color: var(--body-text-color);
+    --breadcrumb-bg-color: grey;
+    --breadcrumb-item-text-color: white;
   
     /* Card */
-    --card-bg-color: rgba(92, 92, 92, 0.5);
+    --card-bg-color: white;
     --card-text-color: #000000;
     --card-border-width: 0 1px 1px 1px;
     --card-border-style: solid;
     --card-border-color: #ccc;
-    --card-progress-bar-color: var(--primary-color);
     --card-overlay-hover-bg-color: rgba(0, 0, 0, 0.2);
   
     /* List items */
@@ -222,4 +221,8 @@
     --accordion-header-collapsed-text-color: black;
     --accordion-header-collapsed-bg-color: white;
     --accordion-body-border-color: black;
+
+    .text-bg-primary {
+        color: white !important;
+        background-color: lightgrey !important;
   }
