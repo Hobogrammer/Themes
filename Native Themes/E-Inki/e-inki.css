@@ -5,7 +5,6 @@
     --primary-color-darker-shade: black;
     --primary-color-darkest-shade: black;
     --error-color: #ff4136;
-    --bs-body-bg: white;
     --body-text-color: black;
     --btn-icon-filter: invert(1) grayscale(100%) brightness(200%);
 
@@ -65,6 +64,21 @@
     --btn-disabled-text-color: white;
     --btn-disabled-border-color: #6c757d;
     --btn-fa-icon-color: black;
+    --btn-active-bg: black !important;
+
+    .btn-check:checked + .btn {
+        background-color: black !important;
+        color: white !important;
+    }
+
+    .btn-check + .btn {
+        background-color: white !important;
+        color: black !important;
+    }
+
+    .btn-outline-primary {
+        border-color: black;
+    }
   
     /* Nav */
     --nav-link-active-text-color: black;
@@ -109,10 +123,10 @@
     --side-nav-companion-bar-transistion: 0s;
     --side-nav-closed-bg-color: transparent;
     --side-nav-item-active-color: black;
-    --side-nav-active-bg-color: rgba(0,0,0,0.5);
+    --side-nav-active-bg-color: lightgrey;
     --side-nav-overlay-color: rgba(0,0,0,1);
     --side-nav-item-active-text-color: black;
-  
+
     /* Toasts */
     --toast-success-bg-color: rgba(74, 198, 148, 0.9);
     --toast-error-bg-color: #BD362F;
@@ -136,8 +150,8 @@
     --brand-font-family: "Spartan", sans-serif;
   
     /* Breadcrumb */
-    --breadcrumb-bg-color: grey;
-    --breadcrumb-item-text-color: white;
+    --breadcrumb-bg-color: white;
+    --breadcrumb-item-text-color: black;
   
     /* Card */
     --card-bg-color: white;
@@ -146,7 +160,7 @@
     --card-border-style: solid;
     --card-border-color: #ccc;
     --card-overlay-hover-bg-color: rgba(0, 0, 0, 0.2);
-  
+
     /* List items */
     --list-group-item-text-color: var(--body-text-color);
     --list-group-item-bg-color: white;
@@ -223,7 +237,23 @@
     --accordion-header-collapsed-bg-color: white;
     --accordion-body-border-color: black;
 
+    /* Change series page card progress color */
     .text-bg-primary {
-        color: white !important;
+        color: black !important;
         background-color: lightgrey !important;
+    }
+
+    .under-image {
+        border: 1px solid black;
+        border-top: none;
+        color: black;
+    }
+
+    .bg-primary {
+        background-color: black !important;
+    }
+
+    .not-read-badge {
+        background-color: grey !important;
+    }
   }
