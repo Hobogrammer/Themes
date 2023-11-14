@@ -5,6 +5,7 @@
     --primary-color-darker-shade: black;
     --primary-color-darkest-shade: black;
     --error-color: #ff4136;
+    --bs-body-bg: white;
     --body-text-color: black;
     --btn-icon-filter: invert(1) grayscale(100%) brightness(200%);
 
@@ -254,6 +255,6 @@
     }
 
     .not-read-badge {
-        background-color: grey !important;
+        border-color: transparent lightslategrey transparent transparent;
     }
   }
