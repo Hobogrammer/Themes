@@ -1,23 +1,22 @@
-:root .bg-dracula-inspired {
+:root .bg-darknight {
 
     /* Main Colors */
     --color-scheme: dark;
-    --primary-color: #50FA7B;
-    --primary-color-dark-shade: #48E16E;
-    --primary-color-darker-shade: #50FA7B;
-    --primary-color-darkest-shade: #40C862;
+    --primary-color: #966fff;
+    --primary-color-dark-shade: #7b57dd;
+    --primary-color-darker-shade: #6443be;
+    --primary-color-darkest-shade: #4e329b;
     --error-color: #FF5555;
-    --bs-body-bg: #282A36;
-    --body-text-color: #F8F8F2;
-    --btn-icon-filter: invert(1) grayscale(100%) brightness(200%);
+    --bs-body-bg: #121216;
+    --body-text-color: #d1d1d1;
 
     /* Scrollbar */
-    --primary-color-scrollbar: rgba(80, 250, 123,.75);
+    --primary-color-scrollbar: rgba(140, 0, 255, 0.75);
 
     /* Navbar */
-    --navbar-bg-color: #44475a;
-    --navbar-text-color: #F8F8F2;
-    --navbar-fa-icon-color: #F8F8F2;
+    --navbar-bg-color: #17181b;
+    --navbar-text-color: #d1d1d1;
+    --navbar-fa-icon-color: #d1d1d1;
     --navbar-btn-hover-outline-color: rgba(255, 255, 255, 1);
 
     /* Side Nav */
@@ -27,7 +26,7 @@
     --side-nav-box-shadow: rgba(0,0,0,.5);
     --side-nav-mobile-box-shadow: 3px 0em 5px 10em rgb(0 0 0 / 50%);
     --side-nav-hover-text-color: #F8F8F2;
-    --side-nav-hover-bg-color: #50FA7B;
+    --side-nav-hover-bg-color: var(--primary-color);
     --side-nav-color: #F8F8F2;
     --side-nav-border-radius: 5px;
     --side-nav-border: none;
@@ -36,16 +35,16 @@
     --side-nav-companion-bar-transistion: .15s linear;
     --side-nav-bg-color-transition: .5s ease-in-out;
     --side-nav-closed-bg-color: transparent;
-    --side-nav-item-active-color: #40C862;
+    --side-nav-item-active-color: var(--primary-color-dark-shade);
     --side-nav-item-active-text-color: #F8F8F2;
-    --side-nav-active-bg-color: #50FA7B;
-    --side-nav-overlay-color: #6272a4;
+    --side-nav-active-bg-color: var(--primary-color);
+    --side-nav-overlay-color: #414c6e;
 
     /* Inputs */
     --input-bg-color: #282A36;
-    --input-bg-readonly-color: rgba(189, 147, 249, .5);
+    --input-bg-readonly-color: rgb(94, 81, 141);
     --input-focused-border-color: #ccc;
-    --input-text-color: #fff;
+    --input-text-color: #d1d1d1;
     --input-placeholder-color: #aeaeae;
     --input-border-color: #ccc;
     --input-focus-boxshadow-color: rgb(255 255 255 / 50%);
@@ -58,35 +57,35 @@
     --btn-primary-bg-color: var(--primary-color);
     --btn-primary-border-color: var(--primary-color);
     --btn-primary-hover-text-color: #F8F8F2;
-    --btn-primary-hover-bg-color: #40C862;
+    --btn-primary-hover-bg-color: var(--primary-color);
     --btn-primary-hover-border-color: rgb(255 255 255 / 50%);
-    --btn-alt-bg-color: #424c72;
-    --btn-alt-border-color: #444f75;
-    --btn-alt-hover-bg-color: #3b4466;
-    --btn-alt-focus-bg-color: #343c59;
+    --btn-alt-bg-color: #343b58;
+    --btn-alt-border-color: #363e5c;
+    --btn-alt-hover-bg-color: #303753;
+    --btn-alt-focus-bg-color: #282e44;
     --btn-alt-focus-boxshadow-color: rgb(255 255 255 / 50%);
     --btn-fa-icon-color: #F8F8F2;
-    --btn-disabled-bg-color: #282a36;
+    --btn-disabled-bg-color: #1c1d25;
     --btn-disabled-text-color: #F8F8F2;
-    --btn-disabled-border-color: #6c757d;
+    --btn-disabled-border-color: #3e4347;
 
     /* Nav */
-    --nav-tab-border-color: rgba(80,250,123, .7);
+    --nav-tab-border-color: var(--primary-color);
     --nav-tab-text-color: var(--body-text-color);
     --nav-tab-bg-color: var(--primary-color);
     --nav-tab-hover-border-color: var(--primary-color);
     --nav-tab-active-text-color: #F8F8F2;
     --nav-tab-border-hover-color: transparent;
     --nav-tab-hover-text-color: var(--body-text-color);
-    --nav-tab-hover-bg-color: #40C862;
-    --nav-tab-border-top: rgba(80,250,123, .7);
-    --nav-tab-border-left: rgba(80,250,123, .7);
-    --nav-tab-border-bottom: rgba(80,250,123, .7);
-    --nav-tab-border-right: rgba(80,250,123, .7);
-    --nav-tab-hover-border-top: rgba(80,250,123, .7);
-    --nav-tab-hover-border-left: rgba(80,250,123, .7);
+    --nav-tab-hover-bg-color: var(--primary-color);
+    --nav-tab-border-top: var(--primary-color);
+    --nav-tab-border-left: var(--primary-color);
+    --nav-tab-border-bottom: var(--primary-color);
+    --nav-tab-border-right: var(--primary-color);
+    --nav-tab-hover-border-top: var(--primary-color);
+    --nav-tab-hover-border-left: var(--primary-color);
     --nav-tab-hover-border-bottom: var(--bs-body-bg);
-    --nav-tab-hover-border-right: rgba(80,250,123, .7);
+    --nav-tab-hover-border-right: var(--primary-color);
     --nav-tab-active-hover-bg-color: var(--primary-color);
 
     --nav-link-bg-color: var(--primary-color);
@@ -143,7 +142,7 @@
     --pagination-link-hover-color: var(--primary-color);
 
     /* Progress */
-    --progress-striped-animated-color: linear-gradient(45deg, rgba(74,198,148, .75) 25%, rgba(51, 138, 103, .75) 25%, rgba(51, 138, 103, .75) 50%, rgba(74,198,148, .75) 50%, rgba(74,198,148, .75) 75%, rgba(51, 138, 103, .75) 75%, rgba(51, 138, 103, .75));
+    --progress-striped-animated-color: linear-gradient(45deg, rgba(132, 74, 198, 0.75) 25%, rgba(92, 51, 138, 0.75) 25%, rgba(89, 51, 138, 0.75) 50%, rgba(128, 74, 198, 0.75) 50%, rgba(132, 74, 198, 0.75) 75%, rgba(92, 51, 138, 0.75) 75%, rgba(92, 51, 138, 0.75));
     --progress-bg-color: var(--nav-header-bg-color);
     --progress-bar-color: var(--primary-color-dark-shade);
 
@@ -192,10 +191,10 @@
     --card-text-color: var(--body-text-color);
 	--card-border-width: 2px 2px 2px 2px;
 	--card-border-style: solid;
-    --card-border-color: rgba(142, 145, 149, 0.1);/
+    --card-border-color: rgba(142, 145, 149, 0.1);
     --card-progress-bar-color: var(--primary-color);
-    --card-overlay-bg-color: rgba(0, 0, 0, 0);
-    --card-overlay-hover-bg-color: rgba(0, 0, 0, .2);
+    --card-overlay-bg-color: rgba(0, 0, 0, 0.1);
+    --card-overlay-hover-bg-color: rgba(0, 0, 0, 0.4);
 
     /* Slider */
     --slider-text-color: #F8F8F2;
@@ -206,8 +205,8 @@
     --manga-reader-overlay-bg-color: rgba(0,0,0,.5);
     --manga-reader-overlay-text-color: #F8F8F2;
     --manga-reader-bg-color: black;
-    --manga-reader-next-highlight-bg-color: rgba(80,250,123, .5);
-    --manga-reader-prev-highlight-bg-color: rgba(98,114,164, .5);
+    --manga-reader-next-highlight-bg-color: rgba(80, 148, 250, 0.5);
+    --manga-reader-prev-highlight-bg-color: rgba(158, 98, 164, 0.5);
 
     /* Radios */    
     --radio-accent-color: var(--primary-color);
@@ -244,5 +243,13 @@
 
 /* Otherwise Progressbar stays green, bug is reported. */
 .progress-bar {
-    background-color: #50FA7B !important;
+    background-color: var(--primary-color) !important;
+}
+
+/* Make the Kavita fit the Theme */
+.navbar-brand {
+    color: var(--primary-color) !important;
+    .logo.img-placeholder {
+        filter: hue-rotate(108deg);
+    }
 }

@@ -1,33 +1,33 @@
-:root .bg-dracula-inspired {
+:root .bg-cutepink {
 
     /* Main Colors */
-    --color-scheme: dark;
-    --primary-color: #50FA7B;
-    --primary-color-dark-shade: #48E16E;
-    --primary-color-darker-shade: #50FA7B;
-    --primary-color-darkest-shade: #40C862;
-    --error-color: #FF5555;
-    --bs-body-bg: #282A36;
-    --body-text-color: #F8F8F2;
-    --btn-icon-filter: invert(1) grayscale(100%) brightness(200%);
+    --color-scheme: light;
+    --primary-color: #ffa0cb;
+    --primary-color-dark-shade: #e485b0;
+    --primary-color-darker-shade: #d1739d;
+    --primary-color-darkest-shade: #b65d85;
+    --error-color: #dd8181;
+    --bs-body-bg: #ffc4cf;
+    --body-text-color: #f996ae;
+
 
     /* Scrollbar */
-    --primary-color-scrollbar: rgba(80, 250, 123,.75);
+    --primary-color-scrollbar: #f996ae;
 
     /* Navbar */
-    --navbar-bg-color: #44475a;
-    --navbar-text-color: #F8F8F2;
-    --navbar-fa-icon-color: #F8F8F2;
+    --navbar-bg-color: #ffdfe5;
+    --navbar-text-color: #f996ae;
+    --navbar-fa-icon-color: #f996ae;
     --navbar-btn-hover-outline-color: rgba(255, 255, 255, 1);
 
     /* Side Nav */
-    --side-nav-bg-color: rgba(68,71,90,.4);
-    --side-nav-mobile-bg-color: rgba(68,71,90,.3);
+    --side-nav-bg-color: var(--bs-body-bg);
+    --side-nav-mobile-bg-color: var(--bs-body-bg);
     --side-nav-openclose-transition: .15s ease-in-out;
-    --side-nav-box-shadow: rgba(0,0,0,.5);
+    --side-nav-box-shadow: var(--bs-body-bg);
     --side-nav-mobile-box-shadow: 3px 0em 5px 10em rgb(0 0 0 / 50%);
     --side-nav-hover-text-color: #F8F8F2;
-    --side-nav-hover-bg-color: #50FA7B;
+    --side-nav-hover-bg-color: var(--primary-color);
     --side-nav-color: #F8F8F2;
     --side-nav-border-radius: 5px;
     --side-nav-border: none;
@@ -36,16 +36,16 @@
     --side-nav-companion-bar-transistion: .15s linear;
     --side-nav-bg-color-transition: .5s ease-in-out;
     --side-nav-closed-bg-color: transparent;
-    --side-nav-item-active-color: #40C862;
+    --side-nav-item-active-color: var(--primary-color-dark-shade);
     --side-nav-item-active-text-color: #F8F8F2;
-    --side-nav-active-bg-color: #50FA7B;
-    --side-nav-overlay-color: #6272a4;
+    --side-nav-active-bg-color: var(--primary-color);
+    --side-nav-overlay-color: #6c416e;
 
     /* Inputs */
-    --input-bg-color: #282A36;
-    --input-bg-readonly-color: rgba(189, 147, 249, .5);
+    --input-bg-color: var(--primary-color-darker-shade);
+    --input-bg-readonly-color: rgb(141, 81, 109);
     --input-focused-border-color: #ccc;
-    --input-text-color: #fff;
+    --input-text-color: #d1d1d1;
     --input-placeholder-color: #aeaeae;
     --input-border-color: #ccc;
     --input-focus-boxshadow-color: rgb(255 255 255 / 50%);
@@ -58,49 +58,49 @@
     --btn-primary-bg-color: var(--primary-color);
     --btn-primary-border-color: var(--primary-color);
     --btn-primary-hover-text-color: #F8F8F2;
-    --btn-primary-hover-bg-color: #40C862;
+    --btn-primary-hover-bg-color: var(--primary-color);
     --btn-primary-hover-border-color: rgb(255 255 255 / 50%);
-    --btn-alt-bg-color: #424c72;
-    --btn-alt-border-color: #444f75;
-    --btn-alt-hover-bg-color: #3b4466;
-    --btn-alt-focus-bg-color: #343c59;
+    --btn-alt-bg-color: #583453;
+    --btn-alt-border-color: #5c365a;
+    --btn-alt-hover-bg-color: #533053;
+    --btn-alt-focus-bg-color: #442844;
     --btn-alt-focus-boxshadow-color: rgb(255 255 255 / 50%);
     --btn-fa-icon-color: #F8F8F2;
-    --btn-disabled-bg-color: #282a36;
+    --btn-disabled-bg-color: #1c1d25;
     --btn-disabled-text-color: #F8F8F2;
-    --btn-disabled-border-color: #6c757d;
+    --btn-disabled-border-color: #3e4347;
 
     /* Nav */
-    --nav-tab-border-color: rgba(80,250,123, .7);
+    --nav-tab-border-color: var(--primary-color);
     --nav-tab-text-color: var(--body-text-color);
-    --nav-tab-bg-color: var(--primary-color);
+    --nav-tab-bg-color: rgba(90, 68, 81, 0.75);
     --nav-tab-hover-border-color: var(--primary-color);
     --nav-tab-active-text-color: #F8F8F2;
     --nav-tab-border-hover-color: transparent;
     --nav-tab-hover-text-color: var(--body-text-color);
-    --nav-tab-hover-bg-color: #40C862;
-    --nav-tab-border-top: rgba(80,250,123, .7);
-    --nav-tab-border-left: rgba(80,250,123, .7);
-    --nav-tab-border-bottom: rgba(80,250,123, .7);
-    --nav-tab-border-right: rgba(80,250,123, .7);
-    --nav-tab-hover-border-top: rgba(80,250,123, .7);
-    --nav-tab-hover-border-left: rgba(80,250,123, .7);
+    --nav-tab-hover-bg-color: var(--primary-color);
+    --nav-tab-border-top: var(--primary-color);
+    --nav-tab-border-left: var(--primary-color);
+    --nav-tab-border-bottom: var(--primary-color);
+    --nav-tab-border-right: var(--primary-color);
+    --nav-tab-hover-border-top: var(--primary-color);
+    --nav-tab-hover-border-left: var(--primary-color);
     --nav-tab-hover-border-bottom: var(--bs-body-bg);
-    --nav-tab-hover-border-right: rgba(80,250,123, .7);
+    --nav-tab-hover-border-right: var(--primary-color);
     --nav-tab-active-hover-bg-color: var(--primary-color);
 
     --nav-link-bg-color: var(--primary-color);
-    --nav-link-active-text-color: #F8F8F2;
-    --nav-link-text-color: #F8F8F2;
+    --nav-link-active-text-color:var(--body-text-color);
+    --nav-link-text-color: var(--body-text-color);
 
-    --nav-header-text-color: #F8F8F2;
+    --nav-header-text-color: var(--body-text-color);
     --nav-header-bg-color: RGB(68, 71, 90);
 
     /* Toasts */
-    --toast-success-bg-color: rgba(80,250,123, .9);
-    --toast-error-bg-color: #ff5555;
-    --toast-info-bg-color: #8BE9FD;
-    --toast-warning-bg-color: #FFB86C;
+    --toast-success-bg-color: #baffc9;
+    --toast-error-bg-color: #ffb3ba;
+    --toast-info-bg-color: ##bae1ff;
+    --toast-warning-bg-color: #ffffba;
 
     /* Checkboxes */
     --checkbox-checked-bg-color: var(--primary-color);
@@ -143,7 +143,7 @@
     --pagination-link-hover-color: var(--primary-color);
 
     /* Progress */
-    --progress-striped-animated-color: linear-gradient(45deg, rgba(74,198,148, .75) 25%, rgba(51, 138, 103, .75) 25%, rgba(51, 138, 103, .75) 50%, rgba(74,198,148, .75) 50%, rgba(74,198,148, .75) 75%, rgba(51, 138, 103, .75) 75%, rgba(51, 138, 103, .75));
+    --progress-striped-animated-color: linear-gradient(45deg, rgba(198, 74, 188, 0.75) 25%, rgba(138, 51, 138, 0.75) 25%, rgba(138, 51, 134, 0.75) 50%, rgba(198, 74, 192, 0.75) 50%, rgba(198, 74, 198, 0.75) 75%, rgba(138, 51, 126, 0.75) 75%, rgba(138, 51, 134, 0.75));
     --progress-bg-color: var(--nav-header-bg-color);
     --progress-bar-color: var(--primary-color-dark-shade);
 
@@ -156,18 +156,18 @@
 
     /* Accordion */
     --accordion-header-text-color: #F8F8F2;
-    --accordion-header-bg-color: rgba(189, 147, 249, .8);
-    --accordion-body-bg-color: rgba(189, 147, 249, .50);
-    --accordion-body-border-color: rgba(68, 71, 90, .75);
+    --accordion-header-bg-color: rgba(249, 147, 232, 0.8);
+    --accordion-body-bg-color: rgba(249, 147, 181, 0.5);
+    --accordion-body-border-color: rgba(90, 68, 81, 0.75);
     --accordion-body-text-color: var(--body-text-color);
     --accordion-header-collapsed-text-color: #F8F8F2;
-    --accordion-header-collapsed-bg-color: #44475a;
+    --accordion-header-collapsed-bg-color: #5a4453;
     --accordion-button-focus-border-color: unset;
     --accordion-button-focus-box-shadow: unset;
-    --accordion-active-body-bg-color: #44475a;
+    --accordion-active-body-bg-color: #5a4458;
 
     /* Breadcrumb */
-    --breadcrumb-bg-color: #292d32;
+    --breadcrumb-bg-color: #F8F8F2;
     --breadcrumb-item-text-color: var(--body-text-color);
 
     /* Rating star */
@@ -188,14 +188,14 @@
     --brand-font-family: "Spartan", sans-serif;
 
     /* Card */
-    --card-bg-color: rgba(40,42,54,.5);
+    --card-bg-color: #F8F8F2;
     --card-text-color: var(--body-text-color);
 	--card-border-width: 2px 2px 2px 2px;
 	--card-border-style: solid;
-    --card-border-color: rgba(142, 145, 149, 0.1);/
+    --card-border-color: rgba(142, 145, 149, 0.1);
     --card-progress-bar-color: var(--primary-color);
-    --card-overlay-bg-color: rgba(0, 0, 0, 0);
-    --card-overlay-hover-bg-color: rgba(0, 0, 0, .2);
+    --card-overlay-bg-color: rgba(0, 0, 0, 0.1);
+    --card-overlay-hover-bg-color: rgba(0, 0, 0, 0.4);
 
     /* Slider */
     --slider-text-color: #F8F8F2;
@@ -206,8 +206,8 @@
     --manga-reader-overlay-bg-color: rgba(0,0,0,.5);
     --manga-reader-overlay-text-color: #F8F8F2;
     --manga-reader-bg-color: black;
-    --manga-reader-next-highlight-bg-color: rgba(80,250,123, .5);
-    --manga-reader-prev-highlight-bg-color: rgba(98,114,164, .5);
+    --manga-reader-next-highlight-bg-color: rgba(80, 148, 250, 0.5);
+    --manga-reader-prev-highlight-bg-color: rgba(158, 98, 164, 0.5);
 
     /* Radios */    
     --radio-accent-color: var(--primary-color);
@@ -220,16 +220,16 @@
     --carousel-hover-header-text-decoration: none;
 
     /** Drawer */
-    --drawer-background-color: black;
-    --drawer-bg-color: #44475a;
+    --drawer-background-color: #F8F8F2;
+    --drawer-bg-color: #59445a;
     --drawer-text-color: #F8F8F2;
 
     /** Event Widget */
-    --event-widget-bg-color: rgb(1, 4, 9);
-    --event-widget-item-bg-color: rgb(1, 4, 9);
+    --event-widget-bg-color: rgb(207, 206, 205);
+    --event-widget-item-bg-color: rgb(207, 206, 205);
     --event-widget-text-color: var(--body-text-color);
-    --event-widget-item-border-color: rgba(53, 53, 53, .5);
-    --event-widget-border-color: rgba(1, 4, 9, .5);
+    --event-widget-item-border-color: rgb(207, 200, 198);
+    --event-widget-border-color: rgb(207, 206, 205);
 
     /* Search */
     --search-result-text-lite-color: initial;
@@ -242,7 +242,15 @@
     --card-list-item-bg-color: linear-gradient(180deg, rgba(0,0,0,.15) 0%, rgba(0,0,0,.15) 1%, rgba(0,0,0,0) 100%);
 }
 
+/* Make the Kavita fit the Theme */
+.navbar-brand {
+    color: var(--primary-color) !important;
+    .logo.img-placeholder {
+        filter: hue-rotate(148deg);
+    }
+}
+
 /* Otherwise Progressbar stays green, bug is reported. */
 .progress-bar {
-    background-color: #50FA7B !important;
+    background-color: var(--primary-color) !important;
 }

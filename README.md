@@ -5,12 +5,19 @@ This will serve as a central hub to store all community made themes
 
 ---
 ## Native Themes
-| Theme Name | Author | Description                                         | Kavita Compatibility |
-|------------|--------|-----------------------------------------------------|----------------------|
-| E-Ink      | [Joe Milazzo](https://github.com/majora2007)    | A simplified theme for e-ink devices                | 0.5.2.x              |
-| Light      | [Joe Milazzo](https://github.com/majora2007)    | A light theme for those that don't like dark themes | 0.5.2.x              |
-| Dracula    | @Mat#6627 | A Dracula inspired theme                            | ?                    |
-|            |           |                                                     |                      |
+| Theme Name | Author | Description                                         | Kavita Compatibility | Preview | 
+|------------|--------|-----------------------------------------------------|----------------------|---------|
+| Light      | [majora2007](https://github.com/majora2007)     | A light theme for those that don't like dark themes | 0.7.14               | [Preview](https://github.com/Kareadita/Themes/blob/main/Native%20Themes/Light/example.png) |
+| DarkNight  | [Elry](https://github.com/ElryWeeb)             | A very Dark Theme, for the Darkmode lovers.         | 0.7.14               | [Pre1](https://github.com/Kareadita/Themes/blob/main/Native%20Themes/DarkNight/preview1.png) [Pre2](https://github.com/Kareadita/Themes/blob/main/Native%20Themes/DarkNight/preview2.png) |
+| CutePink	 | [Elry](https://github.com/ElryWeeb)             | A cute and soft Pink Theme.						 | 0.7.14               | [Preview](https://github.com/Kareadita/Themes/blob/main/Native%20Themes/CutePink/preview.png) |
+| Brilliance | [Elry](https://github.com/ElryWeeb)             | A modern theme for e-ink devices.				     | 0.7.14               | [Preview](https://github.com/Kareadita/Themes/blob/main/Native%20Themes/Brilliance/preview.png) |
+| E-Ink      | [majora2007](https://github.com/majora2007)     | A simplified theme for e-ink devices                | 0.5.2.x              | N/A |
+| Nord       | [ice45core0](https://github.com/ice45core0)     | A dark pastel theme using the Nord color palette    | 0.7.14               | [Preview](https://github.com/Kareadita/Themes/blob/main/Native%20Themes/Nord/preview.png) |
+| Dracula    | [Matguitarist](https://github.com/matguitarist) | A Dracula inspired theme                            | 0.7.14               | [Preview](https://github.com/Kareadita/Themes/blob/main/Native%20Themes/Dracula/preview.jpg) |
+| Overseerr  | [Matguitarist](https://github.com/matguitarist) | A Overseer inspired theme                           | 0.7.14               | [Preview](https://github.com/Kareadita/Themes/blob/main/Native%20Themes/Overseerr/preview.jpg) |
+| Aquamarine | [Matguitarist](https://github.com/matguitarist) | An Aquamarine theme                                 | 0.7.14               | [Preview](https://github.com/Kareadita/Themes/blob/main/Native%20Themes/Aquamarine/preview.jpg) |
+| Solarized  | [Matguitarist](https://github.com/matguitarist) | A Solarized theme                                   | 0.7.14               | [Preview](https://github.com/Kareadita/Themes/blob/main/Native%20Themes/Solarized/preview.jpg) |
+| Darkpink   | [Matguitarist](https://github.com/matguitarist) | A Darkpink theme                                    | 0.7.14               | [Preview](https://github.com/Kareadita/Themes/blob/main/Native%20Themes/DarkPink/preview.jpg) |
 
 ### Native Theme Installation
 1. Download the `theme-name.css` file.
@@ -20,9 +27,9 @@ This will serve as a central hub to store all community made themes
 5. Apply and/or Set Default your newly added theme.
 ---
 ## Style Injected Themes
-| Theme Name | Author | Description                                         | Kavita Compatibility |
-|------------|--------|-----------------------------------------------------|----------------------|
-| Plex-like      | [MrRobotjs](https://github.com/MrRobotjs)    | A Plex-inspired theme                | ?           |
+| Theme Name | Author | Description                                         | Kavita Compatibility | Preview | 
+|------------|--------|-----------------------------------------------------|----------------------|---------|
+| Plex-like      | [MrRobotjs](https://github.com/MrRobotjs)    | A Plex-inspired theme                | ?           | [Preview](https://github.com/Kareadita/Themes/blob/main/Style%20Injected%20Themes/Plex-like/preview.png)
 |            |        |                                                     |                      |
 
 ### Style Injected Theme Installation
